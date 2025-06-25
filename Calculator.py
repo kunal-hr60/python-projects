@@ -12,16 +12,20 @@ def divide(x, y):
         return "Error: Division by zero"
     return x / y
 
+def exp(x, y):
+    return x ** y
+
 def calculator():
     print("Select operation:")
     print("1. Add")
     print("2. Subtract")
     print("3. Multiply")
     print("4. Divide")
+    print("5. Expinential")
 
     choice = input("Enter choice (1/2/3/4): ")
 
-    if choice not in ('1', '2', '3', '4'):
+    if choice not in ('1', '2', '3', '4','5'):
         print("Invalid input")
         return
 
@@ -40,6 +44,8 @@ def calculator():
         print("Result:", multiply(num1, num2))
     elif choice == '4':
         print("Result:", divide(num1, num2))
+    elif choice == '5':
+        print("Result:", exp(num1, num2))
 
 if __name__ == "__main__":
     calculator()
