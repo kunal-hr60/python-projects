@@ -8,5 +8,7 @@ Modules to be used:-<br>
  2. time - Timer.py<br>
  3. qrcode - QR.py<br>
 <br>
+---------------------------------------------------------------------------------------------------
 <!-- Treasure_Island_hunting -->
 Treasure hunting game simpky based on conditional statement
+---------------------------------------------------------------------------------------------------
